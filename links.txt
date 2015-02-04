@@ -1,0 +1,16 @@
+This is a list of links I used for P2.
+
+In addition to the Intro to jQuery and JS Udacity courses I also referred to the following...
+
+http://www.w3schools.com/css/css3_gradients.asp
+
+http://designwashere.com/complementary-colors-in-web-design/
+
+http://www.codeavengers.com/javascript/1#36.5
+
+http://d3js.org/ (attempted and faield to use this!)
+
+http://udacity.github.io/frontend-nanodegree-styleguide/css.html
+
+https://piazza.com/class/i36sqlrb9xu332?cid=414
+
