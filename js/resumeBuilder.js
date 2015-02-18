@@ -114,7 +114,7 @@ var projects = {
 
 //display bio JSON info
 
-function displayBio() {
+bio.display = function() {
 
 		var formattedRole = HTMLheaderRole.replace("%data%",bio.role);
 		var formattedName = HTMLheaderName.replace("%data%",bio.name);
@@ -161,16 +161,14 @@ function displayBio() {
 
 			}
 		}
-
-
 }
+bio.display();
 
-displayBio();
 
 
 //display work JSON info
 
-function displayWork() {
+work.display = function() {
 	for (job in work.jobs) {
 		//create new div for work experience
 		$("#workExperience").append(HTMLworkStart);
@@ -188,9 +186,7 @@ function displayWork() {
 		$(".work-entry:last").append(formattedDescription);
 	}
 }
-
-displayWork();
-
+work.display();
 
 
 
@@ -232,9 +228,8 @@ projects.display = function() {
 		};
 	}
 }
-
-
 projects.display();
+
 
 //display education JSON info
 
